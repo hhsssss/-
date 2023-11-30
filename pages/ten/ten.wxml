@@ -1,0 +1,34 @@
+<view style="display: flex; flex-direction: column; align-items: center;">
+  <image image src="{{imgUrls[0]}}" style="width: 60px; height: 60px; margin-top: 10px;"/>
+</view>
+<view class="input-container">
+  <view class="input-row">
+    <input class="input-box" type="text" placeholder="请输入内容1" />
+    <input class="input-box" type="text" placeholder="请输入内容2" />
+  </view>
+  <view class="input-row">
+    <input class="input-box" type="text" placeholder="请输入内容3" />
+    <input class="input-box" type="text" placeholder="请输入内容4" />
+  </view>
+  <view class="input-row">
+    <input class="input-box" type="text" placeholder="请输入内容5" />
+    <input class="input-box" type="text" placeholder="请输入内容6" />
+  </view>
+  <view class="input-row">
+    <input class="input-box" type="text" placeholder="请输入内容7" />
+    <input class="input-box" type="text" placeholder="请输入内容8" />
+  </view>
+  <view class="input-row">
+    <input class="input-box" type="text" placeholder="请输入内容9" />
+    <input class="input-box" type="text" placeholder="请输入内容10" />
+  </view>
+</view>
+<view class="body">
+  <view class="box">
+    <image class="bg" src="{{bg}}" animation="{{animationRotate}}"></image>
+    <image bindtap="lottery" class="arrows {{isTurnOver?'':'grayscale'}}" src="{{arrows}}"></image>
+  </view>
+</view>
+
+
+

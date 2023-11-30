@@ -1,0 +1,27 @@
+/* pages/setting/enroll/enroll.wxss */
+.key{
+  text-align: center;
+  line-height: 40px;
+  font-size: large;
+  color: rgb(155, 153, 153);
+  font-weight: 800;
+}
+.kill2{
+  margin-top: 1px;
+  font-size: x-large;
+  text-align: center;
+  height: 3em;
+  align-items: center;
+}
+.kill3{
+  font-size: x-large;
+  height: 70px;
+  display: flex;
+  font-weight: 800;
+  color: rgb(155, 153, 153);
+}
+.center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

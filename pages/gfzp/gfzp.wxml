@@ -1,0 +1,20 @@
+<view style="display: flex; flex-direction: column; align-items: center;">
+  <image image src="{{imgUrls[0]}}" style="width: 60px; height: 60px; margin-top: 10px;margin-bottom: 50px;"/>
+</view>
+<view style="display: flex; flex-direction: column; align-items: center;">
+  <navigator url="/pages/zhaji/zhaji">
+    <image src="{{imgUrls[1]}}" style="margin-top: 15px; width: 288px; height: 71px;margin-bottom: 15px;"/>
+  </navigator>
+  <navigator url="/pages/mifen/mifen">
+    <image src="{{imgUrls[2]}}" style="margin-top: 15px; width: 288px; height: 71px;margin-bottom: 15px;"/>
+  </navigator>
+  <navigator url="/pages/chaocai/chaocai">
+    <image src="{{imgUrls[3]}}" style="margin-top: 15px; width: 288px; height: 71px;margin-bottom: 15px;"/>
+  </navigator>
+  <navigator url="/pages/yinpin/yinpin">
+    <image src="{{imgUrls[4]}}" style="margin-top: 15px; width: 288px; height: 71px;margin-bottom: 15px;"/>
+  </navigator>
+  <navigator url="/pages/rihan/rihan">
+    <image src="{{imgUrls[5]}}" style="margin-top: 15px; width: 288px; height: 71px;margin-bottom: 15px;"/>
+  </navigator>
+</view>

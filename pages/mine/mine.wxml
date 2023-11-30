@@ -1,0 +1,26 @@
+<!--pages/mine/mine.wxml-->
+<view class='kill2'>
+  <image src="{{img}}" style="clip-path: circle(50% at 50% 50%); width: 80px; height: 80px; margin-top: 0px; margin-left: 30px; margin-right: 10px;"/>
+  <view>
+  <text>{{name||xm}}</text>
+  </view>
+</view>
+<view>
+<view class="top1">
+    <image src="{{imgUrls[1]}}" style="width: 30px; height: 30px; margin-top: 10px; margin-bottom: 10px;margin-left: 20px; margin-right: 22px; margin-top: 15px;"/>
+    <navigator url="/pages/comment/comment" style="font-weight: bold; color:#000000; ">我的评论</navigator>
+  </view>
+
+  <view class="top2">
+    <image src="{{imgUrls[2]}}" style="width: 30px; height: 30px; margin-top: 10px; margin-bottom: 10px;margin-left: 20px; margin-right: 20px;"/>
+    <navigator url="/pages/collect/collect" style="font-weight: bold; color:#000000;  ">我的收藏</navigator>
+  </view>
+  <view class="top3">
+    <image src="{{imgUrls[3]}}" style="width: 30px; height: 30px;margin-top: 10px; margin-bottom: 10px;margin-left: 20px; margin-right: 20px;"/>
+    <navigator url="/pages/fk/fk" style="font-weight: bold; color:#000000;  ">反馈</navigator>
+  </view>
+  <view class="top4">
+    <image src="{{imgUrls[4]}}" style="width: 30px; height: 30px; margin-top: 10px; margin-bottom: 10px;margin-left: 20px; margin-right: 20px;"/>
+    <navigator url="/pages/setting/setting" style="font-weight: bold; color:#000000;  ">设置</navigator>
+  </view>
+</view>

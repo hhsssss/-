@@ -1,0 +1,17 @@
+<!--pages/setting/enroll/enroll.wxml-->
+<view style="display: flex; align-items: center; justify-content: center; height: 100%;">
+  <image src="{{imgurl}}" bindtap="upload" style="height: 150px; width:150px; margin-top: 30px; "/>
+</view>
+ 
+<view style="display: flex; align-items: center; justify-content: center; height: 100%;margin-top: 40px;color: rgb(128, 128, 128); font-weight: 800;font-size: large;">
+  <view>昵称</view>
+</view>
+<view style="display: flex; align-items: center; justify-content: center; height: 100%;margin-top: 40px; ">
+  <input type="text" placeholder="输入账号"  
+  bindinput="name" value="{{name}}"
+  style="text-align: center; width: 15em; height: 50px; border-radius: 4px; border: 2px solid rgb(189, 187, 187);"/>
+</view>
+
+<view class='kill2' style="display: flex; margin-top: 40px; justify-content: center; height: 100%;" bindtap="save">
+ <navigator url="/pages/mine/mine" style="color: rgb(128, 128, 128); font-weight: 800; align-items: center; width: 10em; height: 50px; border-radius: 4px; border: 2px solid rgb(248, 245, 245); background:-webkit-linear-gradient(left,rgb(250, 240, 227),rgb(250, 231, 215),rgb(253, 197, 175)); display: flex; justify-content: center; align-items: center;">更新信息</navigator>
+</view>

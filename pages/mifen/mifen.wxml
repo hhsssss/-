@@ -1,0 +1,16 @@
+<view style="display: flex; flex-direction: column; align-items: center;">
+  <image src="https://6232-b2-7gkwgld706d8a245-1322544397.tcb.qcloud.la/my/%E9%A5%95%E9%A4%AE.png" style="width: 60px; height: 60px; margin-top: 10px;"/>
+</view>
+
+<view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> 
+
+<view class="body">
+  <view class="box">
+    <image class="bg" src="{{bg}}" animation="{{animationRotate}}"></image>
+    <image bindtap="lottery" class="arrows {{isTurnOver?'':'grayscale'}}" src="{{arrows}}"></image>
+  </view>
+</view>
+
+

@@ -1,0 +1,11 @@
+/* pages/caidan/caidan.wxss */
+/* pages/1/11.wxss */
+.bottom{
+  max-width: 90em;
+  margin-top: 40px;
+  font-size: large;
+  display: flex;
+  height: 4em;
+  justify-content: space-around;
+  background-color: rgb(233, 232, 232);
+}

@@ -1,0 +1,14 @@
+<view style="display: flex; flex-direction: column; align-items: center;">
+  <image image src="{{imgUrls[0]}}" style="width: 60px; height: 60px; margin-top: 10px;"/>
+</view>
+<view style="display: flex; flex-direction: column; align-items: center;">
+  <view style="font-weight: bold;width: 100px; height: 30px; margin-top: 30px; display: flex; justify-content: center; align-items: center;">官方转盘</view>
+  <navigator url="/pages/gfzp/gfzp">
+    <image src="https://6232-b2-7gkwgld706d8a245-1322544397.tcb.qcloud.la/11/zp.JPG" style="width: 200px; height: 200px;margin-bottom: 0px;"/>
+  </navigator>
+  <view style="font-weight: bold;width: 100px; height: 30px; margin-top: 20px; display: flex; justify-content: center; align-items: center;">自定义转盘</view>
+  <navigator url="/pages/zdy/zdy">
+    <image src="https://6232-b2-7gkwgld706d8a245-1322544397.tcb.qcloud.la/11/zp.JPG" style="width: 200px; height: 200px;margin-bottom: 0px;"/>
+  </navigator>
+</view>
+
