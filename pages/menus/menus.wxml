@@ -1,0 +1,55 @@
+<!--pages/menus/menus.wxml-->
+<!--轮播图区域-->
+<!-- <swiper indicator-dots circular>
+    <swiper-item wx:for="{{swiperlist}}" wx:key="id">
+        <image src="{{item.image}}"></image>
+    </swiper-item>
+</swiper> -->
+<!-- <swiper indicator-dots circular>
+    <swiper-item>
+        <image src="https://6232-b2-7gkwgld706d8a245-1322544397.tcb.qcloud.la/logo.png?sign=98a6deabcae029eeb1b03c1a251e3882&t=1701347406" mode="widthFix"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="https://6232-b2-7gkwgld706d8a245-1322544397.tcb.qcloud.la/ttt.JPG?sign=e24e6576bca78c595e05976e304e6e67&t=1701343738"></image>
+    </swiper-item>
+</swiper> -->
+
+<view style="display: flex; flex-direction: column; align-items: center;">
+  <image image src="{{imgUrls[0]}}" style="width: 60px; height: 60px; margin-top: 10px;"/>
+</view>
+
+<!--九宫格区域-->
+<!-- <view class="grid-list">
+  <view class="grid-item" wx:for="{{gridlist}}" wx:key="id">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view> -->
+<swiper indicator-dots circular>
+    <swiper-item>
+        <image src="https://6232-b2-7gkwgld706d8a245-1322544397.tcb.qcloud.la/m1.png?sign=fc12f30b1655cf559c9b8a63944086a9&t=1701326691"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="https://6232-b2-7gkwgld706d8a245-1322544397.tcb.qcloud.la/m2.png?sign=b949d24e29a1ccf6b535e71889053ba1&t=1701326711"></image>
+    </swiper-item>
+</swiper>
+<view class="grid-list">
+  <navigator class="grid-item" url="/pages/mgdinning/mgdinning?id=3&title={{'玫瑰'}}">
+    <image src="cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/食堂/玫瑰园.png"></image>    
+  </navigator>
+  <navigator class="grid-item" url="/pages/zjdinning/zjdinning?id=4&title={{'紫荆'}}">
+    <image src="cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/食堂/紫荆园.png"></image>    
+  </navigator>
+  <navigator class="grid-item" url="/pages/tldinning/tldinning?id=5&title={{'桃李'}}">
+    <image src="cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/食堂/茉莉园.png"></image>    
+  </navigator>
+  <navigator class="grid-item" url="/pages/dxdinning/dxdinning?id=6&title={{'丁香'}}">
+    <image src="cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/食堂/丁香园.png"></image>    
+  </navigator>
+  <navigator class="grid-item" url="/pages/bhdinning/bhdinning?id=1&title={{'百合'}}">
+    <image src="cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/食堂/百合园.png"></image>    
+  </navigator>
+  <navigator class="grid-item" url="/pages/frdinning/frdinning?id=2&title={{'芙蓉'}}">
+    <image src="cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/食堂/芙蓉园.png"></image>    
+  </navigator>   
+</view>

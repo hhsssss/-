@@ -1,0 +1,12 @@
+<!--pages/zjdinning/zjdinning.wxml-->
+<navigator class="zj-item" wx:for="{{zjdinning}}" wx:key="id" url="/pages/details/details?id={{item._id}}&&title={{item.En}}">
+  <view class="ts">
+    <image src="{{item.image}}"></image>
+  </view>
+  <view class="ys">
+    <text class="tw-title">{{item.name}}</text>
+    <text>电话:{{item.phone}}</text>
+    <text>评分:{{item.price}}</text>
+    <text>营业时间:{{item.businesstime}}</text>
+  </view>
+</navigator>

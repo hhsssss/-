@@ -1,0 +1,14 @@
+/* pages/shouye/shouye.wxss */
+.page-container {
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+.yuanshen{
+  height: 100vh;
+    
+}
+.yuanshen image{
+    width:100%;
+    height: 100%;
+}

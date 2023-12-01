@@ -1,0 +1,53 @@
+/* pages/menus/menus.wxss */
+/* 轮播图样式 */
+swiper{
+    height: 300rpx;
+}
+swiper image{
+    width:100%;
+    height: 100%;
+}
+/* 弹性布局，一行放不下就多行 */
+.grid-list{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+/* 保证每行三个 */
+.grid-item{
+    width: 50%;
+    height: 250rpx;
+    display: flex;
+    flex-direction: column;
+    /* 纵向居中 */
+    align-items: center;
+    justify-content: center;
+    /* 使元素宽度保持不变，防止宽度不够出现一行只有两个的情况 */
+    box-sizing: border-box; 
+}
+/* 改变图片(如美食左边的图片)大小，使其适配 */
+.grid-item image{
+    /* width: 60rpx; */
+    width: 80%;
+    height: 70%;
+    margin-left: 10px; 
+    margin-right: 10px;  
+}
+/* 改变字体大小和文本与图片的间距,没有字的话可省略*/
+.grid-item text{
+    font-size: 24rpx;
+    margin-top: 5rpx;
+    /* 使用 justify-content: space-around;，那么每个子元素之间以及子元素与容器边缘之间的空间将会是相等的。 */
+    justify-content: space-around;
+}
+
+
+.st{
+    height: 250rpx;
+    /* height: 100rpx; */
+    /* display: flex; */
+    /* padding: 20rpx 10rpx; */
+}
+.st image{
+    width: 20%;
+    height: 20%;
+}

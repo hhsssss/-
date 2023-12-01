@@ -1,0 +1,9 @@
+<!--pages/mypinglun/mypinglun.wxml-->
+<text>我的评论</text>
+<view class="container">
+  <view class="comment" wx:for="{{ comments }}" wx:key="index">
+    <view class="name">{{ comment.dish }}</view>
+    <view class="content">{{ comment.content }}</view>
+    <view class="table">{{ comment.table }}</view>
+  </view>
+</view>

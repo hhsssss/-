@@ -8,15 +8,10 @@
   align-self: flex-start;
   margin-left: 0px;
 }
-.top1 {
-  font-size: x-large;
-  height: 80px;
-  display: flex;
-  align-items: center;
-}
+
 .top2 {
   font-size: x-large;
-  height: 50px;
+  height: 80px;
   display: flex;
   align-items: center;
 }
@@ -28,7 +23,7 @@
 }
 .top4 {
   font-size: x-large;
-  height: 60px;
+  height: 80px;
   display: flex;
   align-items: center;
 }

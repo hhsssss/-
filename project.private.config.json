@@ -9,14 +9,21 @@
       "list": [
         {
           "name": "",
-          "pathName": "pages/mine/mine",
+          "pathName": "pages/fk/fk",
           "query": "",
           "launchMode": "default",
           "scene": null
         },
         {
           "name": "",
-          "pathName": "pages/fk/fk",
+          "pathName": "pages/comment/comment",
+          "query": "id=a72823ff6561dbe600df543c5e93fa61&title=Cfwsx",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/mine/mine",
           "query": "",
           "launchMode": "default",
           "scene": null

@@ -1,15 +1,13 @@
-<!--pages/comment/comment.wxml-->
-<view style="display: flex; flex-direction: column; align-items: center;">
-  <image image src="{{imgUrls[0]}}" style="width: 60px; height: 60px; margin-top: 10px;"/>
-</view>
-<view class="p">
-  <scroll-view scroll-y="true" style="margin-left: 20px; margin-top: 10px ; height: 500px;" enable-passive="{{True}}" refresher-enabled="{{True}} ">
-    <view wx:for='{{length}}' wx:key = "index" style="height: 140px;" class="o">
-      <view class="oo" style="display: flex; color:rgb(116, 114, 114); margin-right: 10px;">
-        <view style="width: 350px; ">菜品-摊位名-食堂名</view>
-        <view style="width: 200px;">7月1日 12:10</view>
-      </view>
-      <view style="color:rgb(12, 12, 12); margin-top: 10px; margin-left: 30px; width: 300px;">味道超赞，而且一看就让人觉得很有食欲，但是分量不大，属于比较精致的类型。胜在菜品也很新鲜，味道咸淡适中，而且火候掌握的刚好。上菜速度很快。</view>
-    </view>
-  </scroll-view>
-</view>
+<input class="input"  bindinput="getContent" placeholder="   请输入评论内容"></input>
+<button type="primary" bind:tap="fabiao"style="color: rgba(128, 128, 128, 0.753); font-weight: 800; align-items: center; border-radius: 20px; border: 2px solid rgb(248, 245, 245); background:-webkit-linear-gradient(left,rgb(250, 240, 227),rgb(250, 231, 215),rgb(253, 197, 175));"> 发表评论</button>
+<block  wx:for="{{pinglun}}" >
+  <view class="pinglunItem">
+
+    <view style="margin-left: 10px;color: rgb(158, 157, 157);">用户 {{item.name}}</view>
+    <view style="margin-left: 10px;">{{item.content}}</view>
+  </view>
+</block>
+
+
+
+

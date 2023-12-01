@@ -37,7 +37,7 @@ Page({
     if (res.result.errCode==0) {
       db.collection( "board" ).add({
         data:{
-          picurl: "cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/一般_用户.png",
+          picurl: "cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/my/匿名.png",
           random: random,
           time:time,
           content: liuyantext,

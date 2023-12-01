@@ -1,0 +1,45 @@
+<!--pages/details/details.wxml-->
+<view class="mg-item" wx:for="{{detalist}}" wx:key="id">
+  <view class="ts">
+    <image src="{{item.image}}"></image>
+  </view>
+  <view class="ys">
+    <text class="tw-title">{{item.name}}</text>
+    <text>价格:{{item.price}}</text>
+    <view class="qd">
+    <view class="mm">
+       <view class="lk">
+        <image class="sc" src="{{item.shoucang ? 'cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/sc-true.png': 'cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/sc-false.png'}}" bindtap="clickme" data-item="{{item}}" ></image>
+       </view>
+        
+        <view class="yx" bindtap="goDetail" data-item="{{item}}">
+            <image class="pl" src="cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/pl.png" ></image>
+        </view>
+    </view>
+    </view>
+    
+    
+  </view>
+
+    <!-- <text class="content">评论区域</text>
+
+  
+  <block  wx:for="{{item.pinglun}}">
+  <view class="pinglunItem">
+  <text >{{item.name}}:发表了评论</text>
+        <text >{{item.content}}</text>
+        </view>
+    
+  
+        
+    </block>
+    <input class="input"  bindinput="getContent" placeholder="请输入评论内容"></input>
+    <button type="primary" bind:tap="fabiao"> 发表评论</button> -->
+
+
+
+
+
+
+</view>
+

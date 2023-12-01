@@ -1,0 +1,29 @@
+/* pages/mgdinning/mgdinning.wxss */
+.mg-item{
+    /* 弹性盒子，左右布局 */
+    display: flex;
+    padding: 20rpx;
+    border: 1rpx solid #db9d63e1;
+    margin: 20rpx;
+    border-radius: 20rpx;
+    box-shadow: 1rpx 1rpx 15rpx rgb(253, 197, 175)
+}
+.ts image{
+    width: 250rpx;
+    height:250rpx;
+    /* 页面图片之间取消间距 */
+    display: block;
+    margin-right: 15rpx;
+}
+
+.ys{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 25rpx;
+}
+
+.tw-title{
+    /* 加粗店面 */
+    font-weight: bold;
+}

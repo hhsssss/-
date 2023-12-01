@@ -1,8 +1,7 @@
 {
   "pages": [
-    "pages/caidan/caidan",
+    "pages/shouye/shouye",
     "pages/mine/mine",
-    "pages/comment/comment",
     "pages/collect/collect",
     "pages/setting/setting",
     "pages/gfzp/gfzp",
@@ -16,8 +15,17 @@
     "pages/yinpin/yinpin",
     "pages/zhaji/zhaji",
     "pages/zdy/zdy",
-    "pages/fk/fk"
-
+    "pages/fk/fk",
+    "pages/bhdinning/bhdinning",
+    "pages/dxdinning/dxdinning",
+    "pages/details/details",
+    "pages/frdinning/frdinning",
+    "pages/menus/menus",
+    "pages/mgdinning/mgdinning",
+    "pages/tldinning/tldinning",
+    "pages/zjdinning/zjdinning",
+    "pages/mypinglun/mypinglun",
+    "pages/comment/comment"
   ],
   "tabBar": {
     "color": "#666666",
@@ -27,7 +35,7 @@
     "list": [
       {
         "image": " ",
-        "pagePath": "pages/caidan/caidan",
+        "pagePath": "pages/menus/menus",
         "text": "菜单"
       },
       {

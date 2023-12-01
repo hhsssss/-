@@ -1,0 +1,12 @@
+<!--pages/bhdinning/bhdinning.wxml-->
+<navigator class="bh-item" wx:for="{{bhdinning}}" wx:key="id" url="/pages/details/details?id={{item._id}}&&title={{item.En}}">
+  <view class="ts">
+    <image src="{{item.image}}"></image>
+  </view>
+  <view class="ys">
+    <text class="tw-title">{{item.name}}</text>
+    <text>电话:{{item.phone}}</text>
+    <text>评分:{{item.pf}}</text>
+    <text>营业时间:{{item.businesstime}}</text>
+  </view>
+</navigator>

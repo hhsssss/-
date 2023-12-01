@@ -1,0 +1,21 @@
+/* pages/mypinglun/mypinglun.wxss */
+.container {
+  padding: 20rpx;
+}
+
+.comment {
+  margin-bottom: 10rpx;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.content {
+  color: #666;
+}
+
+.table {
+  color: #999;
+  font-size: 12px;
+}

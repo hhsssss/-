@@ -7,8 +7,8 @@ Page({
     img:'cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/一般_用户.png',
     imgUrls:[
       'cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/一般_用户.png',
+      
       'cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/my/我的评论.png',
-      'cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/my/我的收藏.png',
       'cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/my/反馈.png',
       'cloud://b2-7gkwgld706d8a245.6232-b2-7gkwgld706d8a245-1322544397/my/设置.png'
     ],

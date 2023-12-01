@@ -1,0 +1,8 @@
+
+<view>
+  <navigator  class="yuanshen" url="/pages/menus/menus" open-type="switchTab">
+    <image src="{{imgUrls[0]}}" style="width: 100%; height: 100%; object-fit: contain;">
+      
+    </image>
+  </navigator>
+</view>
