@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/shouye/shouye",
+    "pages/mine/mine",
+    "pages/collect/collect",
+    "pages/setting/setting",
+    "pages/gfzp/gfzp",
+    "pages/zp/zp",
+    "pages/chaocai/chaocai",
+    "pages/eight/eight",
+    "pages/mifen/mifen",
+    "pages/nine/nine",
+    "pages/rihan/rihan",
+    "pages/ten/ten",
+    "pages/yinpin/yinpin",
+    "pages/zhaji/zhaji",
+    "pages/zdy/zdy",
+    "pages/fk/fk",
+    "pages/bhdinning/bhdinning",
+    "pages/dxdinning/dxdinning",
+    "pages/details/details",
+    "pages/frdinning/frdinning",
+    "pages/menus/menus",
+    "pages/mgdinning/mgdinning",
+    "pages/tldinning/tldinning",
+    "pages/zjdinning/zjdinning",
+    "pages/mypinglun/mypinglun"
+  ],
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "image": " ",
+        "pagePath": "pages/menus/menus",
+        "text": "菜单"
+      },
+      {
+        "pagePath": "pages/zp/zp",
+        "text": "转盘"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#f6f6fa",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "转盘",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+ 
+}
