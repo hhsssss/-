@@ -200,8 +200,9 @@ Page({   // 获取用户openid
    */
   onPullDownRefresh() {
     this.onLoad(option)
-   
+    
   },
+
 
   /**
    * 页面上拉触底事件的处理函数
