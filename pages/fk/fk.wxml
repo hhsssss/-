@@ -14,14 +14,3 @@
     <view class="text" style=" display: flex;flex-direction: column;margin-right: 10px;margin-left: 50px;">{{item.content}}</view>
   </view>
 </view>
-<view wx:for="{{dataobj}}" wx:key="dataobj" class="box">
-  <view class="headimg"><image src="{{item.picurl}}"></image></view>
-  <view class="nickname_liuyantext" contenteditable="true">
-    <view class="nickname"></view>
-    <view class="time">{{item.time}}</view>
-    <view class="text">{{item.content}}</view>
-  </view>
-</view>
-
-
-
