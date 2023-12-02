@@ -1,4 +1,6 @@
 {
   "usingComponents": {},
-  "enablePullDownRefresh": false
+  "navigationBarBackgroundColor": "#f6f6fa",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText":"饕餮的抉择"
 }
